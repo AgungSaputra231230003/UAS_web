@@ -1,0 +1,378 @@
+body {
+  background-image: url('./img/ios-13-stock-ipados-red-black-background-amoled-hd-2880x1800-799.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes body {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* header */
+.header_navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 50px;
+  margin-right: 20px;
+  gap: 30px;
+}
+
+.a_navbar {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+.a_navbar:hover {
+  text-decoration: underline red;
+  cursor: pointer;
+}
+
+/* main */
+.div_main {
+  display: flex;
+  margin-top: 100px;
+}
+header,
+main,
+footer {
+  animation: body 2s ease-in-out;
+}
+.h2_main {
+  display: flex;
+  color: #fff8dc;
+  justify-content: center;
+  align-items: centerX;
+  margin-top: 100px;
+}
+
+.img_coklat_home {
+  width: 300px;
+  filter: drop-shadow(5px 5px 5px white);
+  margin-right: 100px;
+  margin-left: 270px;
+  transition: 0.3s;
+}
+
+.img_coklat_home:hover {
+  scale: 1.2;
+  transition: 0.3s;
+}
+.deskripsi_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.p_selamat_datang {
+  color: white;
+  text-align: justify;
+  padding-right: 100px;
+}
+
+.p_roaca_id {
+  color: red;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.a_navbar_home {
+  color: red;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline white;
+}
+
+.class_batal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* footer */
+.footer {
+  color: white;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* //////////////////////////////////////////////////// TESTIMONI PAGE */
+/* main testimoni */
+.img_coklat_testimoni {
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px white; /* kanan, bawah, blur */
+  border: solid red 1px;
+  transition: 0.3s;
+}
+
+.img_coklat_testimoni:hover {
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.div_main_gambar_1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.div_main_gambar_2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.a_navbar_testimoni {
+  color: red;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline white;
+}
+
+/* //////////////////////////////////////////////////// Menu dan Pesanan PAGE */
+/* js pop up */
+.div_popup_js {
+  background-color: rgba(0, 0, 0, 0.889);
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0s 0.4s;
+  flex-direction: column;
+}
+
+.div_popup_js.show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0s 0s;
+}
+
+.div_popup_js_2 {
+  background-color: white;
+  position: relative;
+  height: 35%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px white;
+}
+.div_popup_js_2_ekonomi {
+  background-color: white;
+  box-shadow: 0 0 20px white;
+  position: relative;
+  height: 35%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_popup_js_3 {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 80%;
+  text-align: justify;
+}
+
+.div_notifikasi1 {
+  height: 5%;
+  width: 50%;
+  background-color: blanchedalmond;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: red;
+  box-shadow: 0 0 20px white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div_notifikasi2 {
+  height: 5%;
+  width: 50%;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 0 20px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div_text1 {
+  position: relative;
+  left: 15px;
+}
+
+.div_text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pack_prem_div {
+  color: gold;
+  filter: drop-shadow(1px 1px 0 black);
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_tutup_style {
+  background-color: white;
+  color: red;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+}
+.button_tutup_style.show {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+/* js pop up end*/
+.div_menupesanan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img_coklat_menu {
+  width: 300px;
+  border-radius: 100%;
+  box-shadow: 0px 0 30px white;
+  margin-top: 150px;
+  animation: rotate_img 2s ease-in-out;
+}
+
+.img_coklat_menu:hover {
+  cursor: pointer;
+}
+
+@keyframes rotate_img {
+  from {
+    border-radius: 45px;
+    transition: 0.3s ease-in-out all;
+  }
+  to {
+    transform: rotate(1080deg);
+    border-radius: 100%;
+    transition: 0.3s ease-in-out all;
+  }
+}
+
+.footer_menu {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pack_premium {
+  color: white;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.pack_premium2 {
+  color: white;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 0;
+}
+
+.div_gambar_menu_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div_gambar_menu_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_2_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  color: white;
+}
+
+.img_social {
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.p_order_via {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_social:hover {
+  filter: drop-shadow(0 0 10px white);
+  transition: all 0.3s ease-in-out;
+}
+
+.a_navbar_mdanp {
+  color: red;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline white;
+}
+/* lokasi page */
+.main_peta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+  margin-bottom: 0;
+}
+
+.footer_lokasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.peta {
+  border-radius: 20px;
+}
+
+.a_navbar_lokasi {
+  color: red;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline white;
+}
